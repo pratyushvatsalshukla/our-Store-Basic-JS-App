@@ -1,0 +1,110 @@
+body{
+ 
+     font-family: "Comic Sans MS", "Comic Sans", cursive;
+     background-color: white;
+     margin: auto ;
+/*    background-color: #09fffa33 ;*/
+    background: url(images/BodyBackground.jpg) ;
+    background-size: cover ;
+    background-repeat: unset;
+/*     background-repeat: no-repeat ;*/
+}
+
+p{
+    margin: auto;
+    padding: 20px ;
+    width: 28%;
+    font-size: 5vw;
+    color: #f30000 ;
+    text-shadow: 0px 0px 20px ;
+}
+
+input{
+    padding: 10px ;
+    margin: 10px ;
+    margin-left: 0 ;
+    background-color: #fdf00080;
+    border: none ;
+    border-radius: 10px ;
+    font-size: 3vh ;
+    width: 50vw;
+    height: 6vh;
+}
+
+button{
+    display: inline-block ;
+    margin: 0 20 40;
+    padding: 5px ;
+    border : none;
+    border-radius: 10px ;
+    background-color: #fdf00080 ;
+    display: inline-table ;
+}
+
+span{
+    font-size: 2vw ;
+}
+
+#VarietyButtons{
+    margin: auto ;
+    width: 50% ;
+}
+
+img{
+
+    border-radius: 25px ;
+    
+}
+
+button:hover, input:hover{
+    transform : scale(1.01) ;
+    transition: transform 0.1s; 
+    background-color: #d5e80e30;
+    box-shadow: -1px 0px 10px ;
+    
+}
+
+img:hover{
+    transform : scale(1.009) ;
+    transition: transform 0.3s;
+    box-shadow:-1px 0px 20px ;
+}
+
+.CardData{
+    padding: 1px ;
+    margin: 5px ;
+    
+}
+
+#ButtonsNav{
+    margin: inherit ;
+    padding: 10px ; 
+    border-width: thick ;
+    border-color:  black ;
+    border:inherit ;
+    border-radius: 5px ;
+    font-size: 30px ;
+}
+
+#SearchBar{
+    margin: inherit;
+    padding: 10px ; 
+    width: 50% ;
+    
+}
+
+#ResultArea{
+
+    
+}
+img{
+    height: 30vh ;
+    width: 16vw ;
+    margin-top:5vh ;
+    border-radius: 20%  
+}
+
+.col-sm-4{
+    text-align: center ;
+    
+}
